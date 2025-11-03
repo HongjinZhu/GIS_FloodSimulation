@@ -1,0 +1,159 @@
+<VRTDataset rasterXSize="445" rasterYSize="703">
+  <SRS dataAxisToSRSAxisMapping="1,2">PROJCS["NAD83 / New York Long Island (ftUS)",GEOGCS["NAD83",DATUM["North_American_Datum_1983",SPHEROID["GRS 1980",6378137,298.257222101004,AUTHORITY["EPSG","7019"]],AUTHORITY["EPSG","6269"]],PRIMEM["Greenwich",0],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AUTHORITY["EPSG","4269"]],PROJECTION["Lambert_Conformal_Conic_2SP"],PARAMETER["latitude_of_origin",40.1666666666667],PARAMETER["central_meridian",-74],PARAMETER["standard_parallel_1",40.6666666666667],PARAMETER["standard_parallel_2",41.0333333333333],PARAMETER["false_easting",984250],PARAMETER["false_northing",0],UNIT["US survey foot",0.304800609601219,AUTHORITY["EPSG","9003"]],AXIS["Easting",EAST],AXIS["Northing",NORTH]]</SRS>
+  <GeoTransform>  9.7889802372910082e+05,  3.0000000000000000e+01,  0.0000000000000000e+00,  2.1533069411887228e+05,  0.0000000000000000e+00, -3.0000000000000000e+01</GeoTransform>
+  <VRTRasterBand dataType="Float32" band="1">
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">0</MDI>
+      <MDI key="STATISTICS_MAXIMUM">20.961017608643</MDI>
+      <MDI key="STATISTICS_MEAN">6.5803834117279</MDI>
+      <MDI key="STATISTICS_STDDEV">3.622819298424</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">63.61</MDI>
+    </Metadata>
+    <NoDataValue>-3.4028234663852886e+38</NoDataValue>
+    <ColorInterp>Gray</ColorInterp>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="0">E:/CERA/GISSR/GIS_FloodSimulation/Data/LM_div18/dem_lm_z35_0.TIF</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="208" RasterYSize="185" DataType="Float32" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="208" ySize="185" />
+      <DstRect xOff="38" yOff="327" xSize="208" ySize="185" />
+      <NODATA>-3.4028234663852886e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="0">E:/CERA/GISSR/GIS_FloodSimulation/Data/LM_div18/dem_lm_z35_10.TIF</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="157" RasterYSize="136" DataType="Float32" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="157" ySize="136" />
+      <DstRect xOff="288" yOff="88" xSize="157" ySize="136" />
+      <NODATA>-3.4028234663852886e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="0">E:/CERA/GISSR/GIS_FloodSimulation/Data/LM_div18/dem_lm_z35_11.TIF</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="153" RasterYSize="145" DataType="Float32" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="153" ySize="145" />
+      <DstRect xOff="280" yOff="143" xSize="153" ySize="145" />
+      <NODATA>-3.4028234663852886e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="0">E:/CERA/GISSR/GIS_FloodSimulation/Data/LM_div18/dem_lm_z35_12.TIF</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="183" RasterYSize="163" DataType="Float32" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="183" ySize="163" />
+      <DstRect xOff="260" yOff="282" xSize="183" ySize="163" />
+      <NODATA>-3.4028234663852886e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="0">E:/CERA/GISSR/GIS_FloodSimulation/Data/LM_div18/dem_lm_z35_13.TIF</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="179" RasterYSize="151" DataType="Float32" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="179" ySize="151" />
+      <DstRect xOff="230" yOff="426" xSize="179" ySize="151" />
+      <NODATA>-3.4028234663852886e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="0">E:/CERA/GISSR/GIS_FloodSimulation/Data/LM_div18/dem_lm_z35_14.TIF</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="207" RasterYSize="126" DataType="Float32" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="207" ySize="126" />
+      <DstRect xOff="24" yOff="420" xSize="207" ySize="126" />
+      <NODATA>-3.4028234663852886e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="0">E:/CERA/GISSR/GIS_FloodSimulation/Data/LM_div18/dem_lm_z35_15.TIF</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="77" RasterYSize="137" DataType="Float32" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="77" ySize="137" />
+      <DstRect xOff="0" yOff="554" xSize="77" ySize="137" />
+      <NODATA>-3.4028234663852886e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="0">E:/CERA/GISSR/GIS_FloodSimulation/Data/LM_div18/dem_lm_z35_16.TIF</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="203" RasterYSize="80" DataType="Float32" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="203" ySize="80" />
+      <DstRect xOff="150" yOff="511" xSize="203" ySize="80" />
+      <NODATA>-3.4028234663852886e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="0">E:/CERA/GISSR/GIS_FloodSimulation/Data/LM_div18/dem_lm_z35_17.TIF</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="91" RasterYSize="103" DataType="Float32" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="91" ySize="103" />
+      <DstRect xOff="39" yOff="600" xSize="91" ySize="103" />
+      <NODATA>-3.4028234663852886e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="0">E:/CERA/GISSR/GIS_FloodSimulation/Data/LM_div18/dem_lm_z35_1.TIF</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="185" RasterYSize="176" DataType="Float32" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="185" ySize="176" />
+      <DstRect xOff="245" yOff="347" xSize="185" ySize="176" />
+      <NODATA>-3.4028234663852886e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="0">E:/CERA/GISSR/GIS_FloodSimulation/Data/LM_div18/dem_lm_z35_2.TIF</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="214" RasterYSize="170" DataType="Float32" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="214" ySize="170" />
+      <DstRect xOff="75" yOff="44" xSize="214" ySize="170" />
+      <NODATA>-3.4028234663852886e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="0">E:/CERA/GISSR/GIS_FloodSimulation/Data/LM_div18/dem_lm_z35_3.TIF</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="138" RasterYSize="127" DataType="Float32" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="138" ySize="127" />
+      <DstRect xOff="13" yOff="474" xSize="138" ySize="127" />
+      <NODATA>-3.4028234663852886e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="0">E:/CERA/GISSR/GIS_FloodSimulation/Data/LM_div18/dem_lm_z35_4.TIF</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="148" RasterYSize="119" DataType="Float32" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="148" ySize="119" />
+      <DstRect xOff="76" yOff="545" xSize="148" ySize="119" />
+      <NODATA>-3.4028234663852886e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="0">E:/CERA/GISSR/GIS_FloodSimulation/Data/LM_div18/dem_lm_z35_5.TIF</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="172" RasterYSize="155" DataType="Float32" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="172" ySize="155" />
+      <DstRect xOff="271" yOff="213" xSize="172" ySize="155" />
+      <NODATA>-3.4028234663852886e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="0">E:/CERA/GISSR/GIS_FloodSimulation/Data/LM_div18/dem_lm_z35_6.TIF</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="189" RasterYSize="144" DataType="Float32" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="189" ySize="144" />
+      <DstRect xOff="107" yOff="0" xSize="189" ySize="144" />
+      <NODATA>-3.4028234663852886e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="0">E:/CERA/GISSR/GIS_FloodSimulation/Data/LM_div18/dem_lm_z35_7.TIF</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="215" RasterYSize="171" DataType="Float32" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="215" ySize="171" />
+      <DstRect xOff="66" yOff="112" xSize="215" ySize="171" />
+      <NODATA>-3.4028234663852886e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="0">E:/CERA/GISSR/GIS_FloodSimulation/Data/LM_div18/dem_lm_z35_8.TIF</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="211" RasterYSize="163" DataType="Float32" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="211" ySize="163" />
+      <DstRect xOff="61" yOff="185" xSize="211" ySize="163" />
+      <NODATA>-3.4028234663852886e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="0">E:/CERA/GISSR/GIS_FloodSimulation/Data/LM_div18/dem_lm_z35_9.TIF</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="212" RasterYSize="176" DataType="Float32" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="212" ySize="176" />
+      <DstRect xOff="49" yOff="251" xSize="212" ySize="176" />
+      <NODATA>-3.4028234663852886e+38</NODATA>
+    </ComplexSource>
+  </VRTRasterBand>
+</VRTDataset>

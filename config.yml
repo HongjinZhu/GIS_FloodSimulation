@@ -1,0 +1,20 @@
+project_name: "LM_div36"
+num_divs: 36
+dem_folder: "/mnt/e/CERA/GISSR/GIS_FloodSimulation/Data/LM_div36"          # ungrouped DEM tiles
+dem_grouped_folder: "/mnt/e/CERA/GISSR/GIS_FloodSimulation/Data/LM_div36_grouped"  # grouped DEMs (if precomputed)
+surface_volume_out: "/mnt/e/CERA/GISSR/GIS_FloodSimulation/Data/SurfaceVolume_LM_div36"      # where SV CSVs go
+roughness_csv: "/mnt/e/CERA/GISSR/GIS_FloodSimulation/Data/LMN_Roughness_36.csv"
+slope_csv: "/mnt/e/CERA/GISSR/GIS_FloodSimulation/Data/LMN_Slope_36.csv"
+elevation_csv: "/mnt/e/CERA/GISSR/GIS_FloodSimulation/Data/LMN_div_low36.csv"
+storm:                                          # choose input style
+  mode: "time_history"  # or "peak_only"
+  surge_csv: "/mnt/e/CERA/GISSR/GIS_FloodSimulation/Data/CO-OPS_8518750_met_hr.csv"
+  nt: 10
+coast_segment_length_m: 100
+walls:
+  ids_csv: "/mnt/e/CERA/GISSR/GIS_FloodSimulation/Data/BigU_LES_all.csv" #TODO: check the IDs of divs with wall      # IDs of coastal subsegments or divisions with protection
+  wall_height_ft: 15
+adjacency:
+  type: "groups"                   # "groups" or "graph"
+  groups_file: "/mnt/e/CERA/GISSR/GIS_FloodSimulation/Data/Groups.json"
+  graph_file:  "/mnt/e/CERA/GISSR/GIS_FloodSimulation/Data/Adjacency.json"
