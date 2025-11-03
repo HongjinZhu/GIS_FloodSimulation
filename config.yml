@@ -18,3 +18,11 @@ adjacency:
   type: "groups"                   # "groups" or "graph"
   groups_file: "/mnt/e/CERA/GISSR/GIS_FloodSimulation/Data/Groups.json"
   graph_file:  "/mnt/e/CERA/GISSR/GIS_FloodSimulation/Data/Adjacency.json"
+
+dynamic:
+  dt_seconds: 3600              # timestep if surge is hourly; adjust if needed
+  passes: 1                     # how many times to sweep along sections (>=1)
+  spill_threshold: 0.99         # fraction of local SV max to allow before spilling downstream
+  spill_fraction: 1.0           # fraction of overflow that spills to next section
+  min_slope: 1.0e-5             # guard against zero slope
+  max_depth_m: null             # clamp water depth if you want (null = no clamp)
